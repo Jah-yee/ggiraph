@@ -2,6 +2,8 @@
 
 ## ggiraph 0.9.5
 
+CRAN release: 2026-02-17
+
 ### Feature
 
 - New functions
