@@ -1,5 +1,8 @@
 library(tinytest)
 library(ggiraph)
+if (!requireNamespace("xml2", quietly = TRUE)) {
+  exit_file("xml2 is not available")
+}
 library(xml2)
 
 # calls dsvg with some predefined args and returns an xml doc
