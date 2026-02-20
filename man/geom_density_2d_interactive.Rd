@@ -47,6 +47,7 @@ p <- m +
 x <- girafe(ggobj = p)
 x
 
+\dontshow{if (identical(Sys.getenv("IN_PKGDOWN"), "true")) withAutoprint(\{ # examplesIf}
 set.seed(4393)
 dsmall <- diamonds[sample(nrow(diamonds), 1000), ]
 d <- ggplot(dsmall, aes(x, y))
@@ -56,9 +57,7 @@ p <- d +
   geom_density_2d_interactive(aes(colour = cut, tooltip = cut, data_id = cut))
 x <- girafe(ggobj = p)
 x <- girafe_options(x = x, opts_hover(css = "stroke:red;stroke-width:3px;"))
-if (interactive()) {
-  print(x)
-}
+x
 
 p <- d +
   geom_density_2d_filled_interactive(
@@ -83,6 +82,7 @@ p <- d +
   scale_fill_viridis_c_interactive(tooltip = "nlevel")
 x <- girafe(ggobj = p)
 x
+\dontshow{\}) # examplesIf}
 }
 \seealso{
 \code{\link[=girafe]{girafe()}}

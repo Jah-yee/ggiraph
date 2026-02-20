@@ -27,7 +27,3 @@ girafe(
     liberationsansHtmlDependency()
   )
 )
-
-
-
-
