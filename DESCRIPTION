@@ -30,6 +30,7 @@ Imports:
     grid,
     htmltools,
     htmlwidgets (>= 1.5),
+    MASS,
     purrr,
     Rcpp (>= 1.1.0),
     rlang,
