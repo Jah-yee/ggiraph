@@ -65,6 +65,10 @@ if (requireNamespace("dplyr", quietly = TRUE)) {
   x <- girafe_options(x = x, opts_hover(css = "stroke:red;fill:orange"))
   if (interactive()) print(x)
 }
+#> Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+#> ℹ Please use `linewidth` instead.
+#> ℹ The deprecated feature was likely used in the ggiraph package.
+#>   Please report the issue at <https://github.com/davidgohel/ggiraph/issues>.
 
 # geom_step_interactive example -----
 if (requireNamespace("dplyr", quietly = TRUE)) {
