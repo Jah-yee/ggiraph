@@ -6,7 +6,6 @@
 ^_pkgdown\.yml$
 ^README\.Rmd$
 ^revdep$
-^visualtests$
 ^cran-comments\.md$
 ^inst/medias$
 
