@@ -135,15 +135,11 @@ if (requireNamespace("dplyr", quietly = TRUE)) {
         tooltip = round(mean(carat), 2),
         data_id = carat
       ),
-      size = 3
+      linewidth = 3
     )
   x <- girafe(ggobj = gg_vline1)
   if (interactive()) print(x)
 }
-#> Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-#> ℹ Please use `linewidth` instead.
-#> ℹ The deprecated feature was likely used in the ggiraph package.
-#>   Please report the issue at <https://github.com/davidgohel/ggiraph/issues>.
 #> `stat_bin()` using `bins = 30`. Pick better value `binwidth`.
 
 dataset <- data.frame(x = rnorm(100))
