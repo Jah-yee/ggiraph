@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User Documentation
+    url: https://ardata.fr/ggiraph-book/
+    about: The user documentation
+  - name: Manuals
+    url: https://davidgohel.github.io/ggiraph/
+    about: Functions documentations
+  - name: Usage question (not a bug)
+    url: https://stackoverflow.com/questions/tagged/ggiraph
+    about: For "how do I do X with ggiraph", please ask on Stack Overflow with the [ggiraph] tag.
