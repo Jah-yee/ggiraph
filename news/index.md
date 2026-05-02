@@ -2,6 +2,8 @@
 
 ## ggiraph 0.9.6
 
+CRAN release: 2026-02-21
+
 ### Issues
 
 - Fix documentation and examples so that R CMD check run ok when
