@@ -483,7 +483,7 @@ implemented by Eric Book.
 
 * fix for element selection: svg elements with same id were not all selected
   but the only element that was clicked
-* fix css issues that occured when several ggiraph were on the same page and their tooltip did not
+* fix css issues that occurred when several ggiraph were on the same page and their tooltip did not
   share the same css attributes.
 
 ## Enhancement
